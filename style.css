@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+.profile {
+    width: 175px;
+    border-radius: 40%;
+    margin-bottom: 50px;
+
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: inherit;
+    height: 800px;
+    color: dimgray;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#05ffff 0%, #05ff8e 100%);
+    opacity: 0.83;
+    display: table;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: black
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background color: black;
+    margin: 8px auto;
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right:30px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.links {
+    float:left;
+    color: black;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right: 9px;
+    font-size: 30px;
+    
+
+        
+    
+}
+.links:hover{
+    background-color:greenyellow;
+    
+}
+
