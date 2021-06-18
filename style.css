@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 
 }
 
@@ -93,4 +94,17 @@ p {
     background-color:greenyellow;
     
 }
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
 
+}
+.article:hover{
+    color:cyan;
+
+}
+#bio{
+    background-color: dodgerblue
+}
