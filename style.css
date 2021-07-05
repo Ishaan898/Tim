@@ -67,44 +67,81 @@ p {
     text-align: center;
     vertical-align: middle;
 }
-.menu{
+
+.menu {
     list-style: none;
-    position: absolute;
-    top:10px;
-    right:30px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
+    width: 100%;
+    background: white;
     cursor: pointer;
     font-family: 'Staatliches', cursive;
-    font-family: 'Roboto Slab', serif;
+    margin-top: 0px;
 }
-.links {
-    float:left;
-    color: black;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:9px;
-    padding-right: 9px;
-    font-size: 30px;
-    
 
-        
-    
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 30px;
+
+
+
+
 }
-.links:hover{
-    background-color:greenyellow;
-    
+
+.links:hover {
+    background-color: cornflowerblue;
+    text-decoration: underline;
+
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
+    color: dodgerblue;
+    text-shadow: 2px 2px gainsboro;
+
 
 }
-.article:hover{
-    color:cyan;
+
+.article:hover {
+    color: cyan;
 
 }
-#bio{
+
+#bio {
     background-color: dodgerblue
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: aqua !important;
+
+}
+
+#contact {
+    background-color: chartreuse;
+
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+
 }
